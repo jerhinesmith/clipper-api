@@ -1,0 +1,5 @@
+# Bundler
+.bundle
+
+# Vendored gems
+/vendor/ruby
