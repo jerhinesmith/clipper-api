@@ -10,6 +10,9 @@ GEM
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
+    sea_witch (0.0.1)
+      faraday
+      nokogiri
     sinatra (1.4.5)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -21,7 +24,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  faraday (~> 0.9.0)
-  nokogiri (~> 1.6.1)
+  sea_witch (= 0.0.1)
   sinatra (~> 1.4.5)
   yajl-ruby (~> 1.2.0)

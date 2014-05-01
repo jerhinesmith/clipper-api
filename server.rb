@@ -1,9 +1,9 @@
 require 'sinatra'
 require 'yajl/json_gem'
-require File.join(File.dirname(__FILE__), 'lib', 'clipper', 'lib', 'clipper', 'client')
+require 'sea_witch'
 
 before do
-  @client = Clipper::Client.new(params[:username], params[:password])
+  @client = SeaWitch::Client.new(params[:username], params[:password])
 end
 
 get '/balance' do
